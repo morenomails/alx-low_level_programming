@@ -4,6 +4,6 @@ echo -e "#include <stdio.h>\n/**
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */\n int main{\nreturn (0);\n}" > $name
+ */\n int main(){\nreturn (0);\n}" > $name
 chmod u+x $name
 vi $name
