@@ -1,5 +1,5 @@
 #!/bin/bash
 read name
-echo -e "!#/bin/bash\n" > $name
+echo -e "#!/bin/bash\n" > $name
 chmod +x $name
 vi $name
