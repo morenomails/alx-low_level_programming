@@ -1,0 +1,5 @@
+#!/bin/bash
+read name
+echo -e "#include <stdio.h>\nint main{\nreturn (0);\n}" > $name
+chmod +x $name
+vi $name
