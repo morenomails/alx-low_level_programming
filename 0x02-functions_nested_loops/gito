@@ -1,5 +1,5 @@
 #!/bin/bash
 read msg
 git add .
-git commit -m "add script number : $msg"
+git commit -m "function number $msg add"
 git push
